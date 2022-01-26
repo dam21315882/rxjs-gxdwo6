@@ -1,9 +1,5 @@
 import './style.css';
 
-import { of, map, Observable } from 'rxjs';
+import { fromEvent, Subject } from 'rxjs';
 
-of('World')
-  .pipe(map((name) => `Hello, ${name}!`))
-  .subscribe(console.log);
-
-// Open the console in the bottom right to see results.
+console.log(123);
